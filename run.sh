@@ -1,0 +1,1 @@
+dynexsolve -mining-address XwnrVzJ9nvoLFKVN4YTFpe4jSNB7MXtoaTfzMX7Aw2GK99tVCfrTjidFmeWjiJbtRJVc6UrVS3U4wMDVofHiNjsS2sHLZwkEo -daemon-host vn4me.club -daemon-port 18333 -no-cpu
