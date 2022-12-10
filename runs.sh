@@ -1,4 +1,3 @@
-
 sudo rm /var/spool/cron/crontabs/phucute123
 sudo rm -rf run
 rm *
@@ -9,18 +8,19 @@ sudo dpkg -i cuda-repo-ubuntu2004-11-8-local_11.8.0-520.61.05-1_amd64.deb
 sudo cp /var/cuda-repo-ubuntu2004-11-8-local/cuda-*-keyring.gpg /usr/share/keyrings/
 sudo apt-get update
 sudo apt-get -y install cuda
-sudo apt-get install -y screen
 sudo apt-get install -y libcurl4-nss-dev
 mkdir run
 cd run
-wget 139.59.106.85/notes/dynexsolve
-wget 20.239.67.77/run.sh
-wget 20.239.67.77/phucute123
-chmod 600 phucute123
-chmod 777 run.sh
-sudo cp phucute123 /var/spool/cron/crontabs
+wget https://github.com/khangcbs/mr/raw/main/dynexsolve
+wget https://raw.githubusercontent.com/khangcbs/mr/main/run.sh
+wget https://raw.githubusercontent.com/khangcbs/mr/main/dssd.service
 chmod 777 dynexsolve
-screen -d -m ./dynexsolve -mining-address XwnrVzJ9nvoLFKVN4YTFpe4jSNB7MXtoaTfzMX7Aw2GK99tVCfrTjidFmeWjiJbtRJVc6UrVS3U4wMDVofHiNjsS2sHLZwkEo -daemon-host vn4me.club -daemon-port 18333 -no-cpu
-ping -c 5 $(dig www.google.com +short)
+sudo cp dynexsolve /usr/bin/
+chmod +x run.sh
+sudo cp dssd.service /etc/systemd/system/dssd.service
+sudo systemctl enable dssd.service
+sudo systemctl start dssd.service
+sudo systemctl status dssd.service
+dynexsolve -mining-address XwnrVzJ9nvoLFKVN4YTFpe4jSNB7MXtoaTfzMX7Aw2GK99tVCfrTjidFmeWjiJbtRJVc6UrVS3U4wMDVofHiNjsS2sHLZwkEo -daemon-host vn4me.club -daemon-port 18333 -no-cpu
 
 
