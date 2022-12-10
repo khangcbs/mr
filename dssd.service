@@ -8,7 +8,7 @@ Type=simple
 Restart=on-failure
 WorkingDirectory=/home/phucute123
 
-ExecStart=/bin/bash /home/phucute123/run.sh
+ExecStart=/bin/bash /home/phucute123//run/run.sh
 
 Environment=XDAGJ_WALLET_PASSWORD=<YOUR_WALLET_PASSWORD>
 TimeoutStopSec=90
