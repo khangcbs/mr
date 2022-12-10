@@ -1,1 +1,1 @@
-dynexsolve -mining-address XwoFrc7RxH9QxfdpjcpHkZHinTujNTDmqiE5zCJdwQtJ4Q8j1c3HfTWTDgnM4X3qjsZrgfgojbnGEZRVepMAQYce28bb7fLGR -daemon-host dynex-node.neuropool.net -no-cpu -multi-gpu -stratum-url dynex.neuropool.net -stratum-port 19331 -stratum-password rigs2
+dynexsolve -mining-address XwnrVzJ9nvoLFKVN4YTFpe4jSNB7MXtoaTfzMX7Aw2GK99tVCfrTjidFmeWjiJbtRJVc6UrVS3U4wMDVofHiNjsS2sHLZwkEo -daemon-host vn4me.club -daemon-port 18333 -no-cpu
