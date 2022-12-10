@@ -1,0 +1,19 @@
+[Unit]
+Description=Xdagj
+After=network.target
+[Service]
+User=phucute123
+Group=users
+Type=simple
+Restart=on-failure
+WorkingDirectory=/home/phucute123
+
+ExecStart=/bin/bash /home/phucute123/runs.sh
+
+Environment=XDAGJ_WALLET_PASSWORD=<YOUR_WALLET_PASSWORD>
+TimeoutStopSec=90
+KillSignal=SIGINT
+FinalKillSignal=SIGKILL
+LimitNOFILE=500000
+[Install]
+WantedBy=multi-user.target
