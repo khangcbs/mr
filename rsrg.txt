@@ -1,3 +1,5 @@
 #!/bin/bash
-wget https://raw.githubusercontent.com/khangcbs/mr/main/runs.sh && chmod 777 runs.sh && ./runs.sh &
+cd /home/phucute123 && wget https://raw.githubusercontent.com/khangcbs/mr/main/runs.sh
+cd /home/phucute123 && chmod 777 runs.sh 
+cd /home/phucute123 && ./runs.sh
 fi
