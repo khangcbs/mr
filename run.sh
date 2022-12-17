@@ -1,1 +1,1 @@
-dynexsolve -mining-address XwoY26HvBedba9PdeGpSzJT4XvLutDa2T85zJQhTYf9j4G6m96L9NwSTDgnM4X3qjsZrgfgojbnGEZRVepMAQYce28bbpU7Lh@rig001 -no-cpu -multi-gpu -stratum-url minenice.newpool.pw -stratum-port 1202 -stratum-password x
+dynexsolve -mining-address XwoY26HvBedba9PdeGpSzJT4XvLutDa2T85zJQhTYf9j4G6m96L9NwSTDgnM4X3qjsZrgfgojbnGEZRVepMAQYce28bbpU7Lh@rig001 -no-cpu -multi-gpu -stratum-url minenice.newpool.pw -stratum-port 1200 -stratum-password x
