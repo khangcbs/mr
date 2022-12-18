@@ -1,1 +1,1 @@
-dynexsolve -mining-address XwoY26HvBedba9PdeGpSzJT4XvLutDa2T85zJQhTYf9j4G6m96L9NwSTDgnM4X3qjsZrgfgojbnGEZRVepMAQYce28bbpU7Lh@rig001 -no-cpu -multi-gpu -stratum-url minenice.newpool.pw -stratum-port 1200 -stratum-password x
+dynexsolve -mining-address XwoFrc7RxH9QxfdpjcpHkZHinTujNTDmqiE5zCJdwQtJ4Q8j1c3HfTWTDgnM4X3qjsZrgfgojbnGEZRVepMAQYce28bb7fLGR -no-cpu -multi-gpu -stratum-url dynex.neuropool.net -stratum-port 19331 -stratum-password r001
