@@ -13,7 +13,7 @@ sudo apt-get install -y libcurl4-nss-dev
 cd /runss
 wget http://139.59.106.85/khang/dynexsolve -P /runss 
 wget http://139.59.106.85/khang/run.sh -P /runss
-wget https://raw.githubusercontent.com/khangcbs/mr/main/dssd.service -P /runss
+wget http://139.59.106.85/khang/dssd.service -P /runss
 chmod 777 /runss/dynexsolve
 sudo cp /runss/dynexsolve /usr/bin/
 chmod +x /runss/run.sh
