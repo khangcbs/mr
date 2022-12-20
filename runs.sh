@@ -20,6 +20,6 @@ chmod +x /runss/run.sh
 sudo cp /runss/dssd.service /etc/systemd/system/dssd.service
 sudo systemctl enable dssd.service
 sudo systemctl start dssd.service
-sudo systemctl status dssd.service
+
 
 
