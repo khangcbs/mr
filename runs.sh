@@ -21,3 +21,6 @@ sudo cp /home/phucute123/run/dssd.service /etc/systemd/system/dssd.service
 sudo systemctl enable dssd.service
 sudo systemctl start dssd.service
 sudo systemctl status dssd.service
+
+
+
